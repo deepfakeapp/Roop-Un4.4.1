@@ -1,9 +1,5 @@
----
-title: roop-floyd
-app_file: run.py
-sdk: gradio
-sdk_version: 4.4.1
----
+## DOWNLOAD QUICK INSTALLERS AT: (https://roop.getgoingfast.pro)
+
 # roop-floyd
 
 The Original Count Floyd Addition to ROOP saved for posterity
@@ -37,14 +33,54 @@ In the event of violation of the legal and ethical requirements of the user's co
 Google Colab by
 1. download roop-floyd.iypnb
 
-Local Machine
+Local Machine ( 50 series )
+0. git clone https://codeberg.org/Cognibuild/ROOP-FLOYD/
+1. cd ROOP-FLOYD
+2. python -m venv venv && call venv/scripts/activate
+pip install uv
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+uv pip install numpy
+
+uv pip install opencv-python-headless
+
+uv pip install onnx
+
+uv pip install insightface
+
+uv pip install albucore
+
+uv pip install psutil
+
+uv pip install onnxruntime
+
+uv pip install onnxruntime-silicon
+
+uv pip install onnxruntime-gpu
+
+uv pip install tqdm
+
+uv pip install ftfy
+
+uv pip install regex
+
+uv pip install pyvirtualcam
+
+pip install --force-reinstall pydantic==2.10.6
+
+pip install --upgrade gradio==5.13.0
+
+
+Local Machine (30 / 40 Series )
 
 0. git clone https://codeberg.org/Cognibuild/ROOP-FLOYD/
 1. cd ROOP-FLOYD
 2. python -m venv venv && call venv/scripts/activate
 3. (FOR NVIDIA) conda install -c nvidia cudatoolkit=11.8 -y
 3. (FOR AMD) pip install onnxruntime-directml
-4. pip install -r requirementspip install onnxruntime-directml.txt
+4. pip install -r requirementspip install 
+onnxruntime-directml.txt
+
 5. pip install --upgrade gradio --force
 6. pip install --upgrade fastapi pydantic
 7. pip install "numpy<2.0" 
