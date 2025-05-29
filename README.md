@@ -37,7 +37,9 @@ Local Machine ( 50 series )
 0. git clone https://codeberg.org/Cognibuild/ROOP-FLOYD/
 1. cd ROOP-FLOYD
 2. python -m venv venv && call venv/scripts/activate
+
 pip install uv
+
 uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 
 uv pip install numpy
