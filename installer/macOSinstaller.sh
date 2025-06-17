@@ -55,8 +55,8 @@ else
 fi
 
 # Clone the repository
-REPO_URL="https://github.com/C0untFloyd/roop-unleashed.git"
-REPO_NAME="roop-unleashed"
+REPO_URL="https://github.com/ravindergandhi/Roop-Un4.4.1.git"
+REPO_NAME="Roop-Un4.4.1"
 
 echo "Cloning the repository $REPO_URL..."
 git clone $REPO_URL
@@ -70,4 +70,3 @@ else
 fi
 
 echo "Check and installation process completed."
-
