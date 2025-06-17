@@ -8,7 +8,7 @@ onnx==1.16.1
 insightface==0.7.3.4
 albucore==0.0.16
 psutil==7.0.0
-tqdm==4.67.1
+tqdm==4.66.3
 ftfy==6.3.1
 regex
 pyvirtualcam==0.12.1
