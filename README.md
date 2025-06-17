@@ -1,6 +1,6 @@
 ## DOWNLOAD QUICK INSTALLERS AT: (https://roop.getgoingfast.pro)
 
-# roop-floyd
+# Roop-Un4.4.1
 
 The Original Count Floyd Addition to ROOP saved for posterity
 
@@ -31,11 +31,11 @@ In the event of violation of the legal and ethical requirements of the user's co
 
 ### Installation
 Google Colab by
-1. download roop-floyd.iypnb
+1. download Roop-Un4.4.1.iypnb
 
 Local Machine ( 50 series )
-0. git clone https://codeberg.org/Cognibuild/ROOP-FLOYD/
-1. cd ROOP-FLOYD
+0. git clone https://github.com/ravindergandhi/Roop-Un4.4.1
+1. cd Roop-Un4.4.1
 2. python -m venv venv && call venv/scripts/activate
 
 pip install uv
@@ -75,8 +75,8 @@ pip install --upgrade gradio==5.13.0
 
 Local Machine (30 / 40 Series )
 
-0. git clone https://codeberg.org/Cognibuild/ROOP-FLOYD/
-1. cd ROOP-FLOYD
+0. git clone https://github.com/ravindergandhi/Roop-Un4.4.1
+1. cd Roop-Un4.4.1
 2. python -m venv venv && call venv/scripts/activate
 3. (FOR NVIDIA) conda install -c nvidia cudatoolkit=11.8 -y
 3. (FOR AMD) pip install onnxruntime-directml
