@@ -1,4 +1,4 @@
-## DOWNLOAD QUICK INSTALLERS AT: (https://roop.getgoingfast.pro)
+## DOWNLOAD 
 
 # Roop-Un4.4.1
 
