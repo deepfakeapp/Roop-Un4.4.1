@@ -1,5 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cu124
-#numpy==1.26.4
+
 numpy<2.0
 gradio==5.13.0
 opencv-python-headless==4.10.0.84
@@ -19,8 +19,13 @@ ftfy
 regex
 pyvirtualcam
 pydantic==2.10.6
-#fastapi<0.113.0
 fastapi==0.115.12
+
+# Downgrade Changes
+# *****************************************************
+#numpy==1.26.4
+#fastapi<0.113.0
+# *****************************************************
 
 # New Upgrade Changes
 # *****************************************************
