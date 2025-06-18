@@ -27,6 +27,16 @@ Users of this software are expected to use this software responsibly while abidi
 
 In the event of violation of the legal and ethical requirements of the user's country or region, this code repository is exempt from liability
 
+### Usage
+
+- Windows: run the `windows_run.bat` from the Installer.
+- Linux: `python run.py`
+- Dockerfile - `docker build -t roop-unleashed .`
+
+<a target="_blank" href="https://colab.research.google.com/drive/1dFlsE4Rf0Djp4syxPTHZjy8N_pmVpMbE">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ### Installation
 Google Colab by
 1. download Roop-Un4.4.1.iypnb
