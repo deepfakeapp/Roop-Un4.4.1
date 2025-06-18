@@ -2,8 +2,6 @@
 
 # Roop-Un4.4.1 - This project has been discontinued
 
-The Original Count Floyd Addition to ROOP saved for posterity
-
 ### Features
 
 - Platform-independant Browser GUI
