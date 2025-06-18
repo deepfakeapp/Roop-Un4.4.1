@@ -21,3 +21,15 @@ pyvirtualcam
 pydantic==2.10.6
 #fastapi<0.113.0
 fastapi==0.115.12
+
+# New Upgrade Changes
+# *****************************************************
+#numpy==2.2.4
+#gradio==5.25.2
+#onnx==1.17.0
+#albucore==0.0.23
+#torch==2.6.0+cu126; sys_platform != 'darwin'
+#torch==2.6.0; sys_platform == 'darwin'
+#torchvision==0.21.0+cu126; sys_platform != 'darwin'
+#torchvision==0.21.0; sys_platform == 'darwin'
+# *****************************************************
