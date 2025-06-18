@@ -1,16 +1,16 @@
---extra-index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://download.pytorch.org/whl/cu126
 
-numpy<2.0
-gradio==5.13.0
+numpy==2.2.4
+gradio==5.25.2
 opencv-python-headless==4.10.0.84
-onnx==1.16.1
+onnx==1.17.0
+albucore==0.0.23
 insightface==0.7.3
-albucore==0.0.16
 psutil==5.9.6
-torch==2.5.1+cu124; sys_platform != 'darwin'
-torch==2.5.1; sys_platform == 'darwin'
-torchvision==0.20.1+cu124; sys_platform != 'darwin'
-torchvision==0.20.1; sys_platform == 'darwin'
+torch==2.6.0+cu126; sys_platform != 'darwin'
+torch==2.6.0; sys_platform == 'darwin'
+torchvision==0.21.0+cu126; sys_platform != 'darwin'
+torchvision==0.21.0; sys_platform == 'darwin'
 onnxruntime==1.20.1; sys_platform == 'darwin' and platform_machine != 'arm64'
 onnxruntime-silicon==1.16.3; sys_platform == 'darwin' and platform_machine == 'arm64'
 onnxruntime-gpu==1.20.1; sys_platform != 'darwin'
@@ -20,22 +20,3 @@ regex
 pyvirtualcam
 pydantic==2.10.6
 fastapi==0.115.12
-
-# Downgrade Changes
-# *****************************************************
-#numpy==1.26.4
-#fastapi<0.113.0
-# *****************************************************
-
-# New Upgrade Changes
-# *****************************************************
-#--extra-index-url https://download.pytorch.org/whl/cu126
-#numpy==2.2.4
-#gradio==5.25.2
-#onnx==1.17.0
-#albucore==0.0.23
-#torch==2.6.0+cu126; sys_platform != 'darwin'
-#torch==2.6.0; sys_platform == 'darwin'
-#torchvision==0.21.0+cu126; sys_platform != 'darwin'
-#torchvision==0.21.0; sys_platform == 'darwin'
-# *****************************************************
