@@ -2,6 +2,14 @@
 
 # Roop-Un4.4.1 - This project has been discontinued
 
+[Disclaimer](#Disclaimer) • [Usage](#usage) • [Google-Colab](#Google-Colab)
+
+
+images and videos without training and an easy-to-use GUI.
+
+
+![Screen](https://github.com/C0untFloyd/roop-unleashed/assets/131583554/6ee6860d-efbe-4337-8c62-a67598863637)
+
 ### Features
 
 - Platform-independant Browser GUI
@@ -16,12 +24,12 @@
 - Settings - storing configuration for next session
 - Theme Support
 
-and lots more...
+
+### Disclaimer
 
 
-## Disclaimer
+This project is for technical and academic use only. Use This Code for Ai Deep learning and Ai Coding i.e just to learn How Ai Works?. Users of this software are expected to use this software responsibly while abiding the local law. If a face of a real person is being used, users are suggested to get consent from the concerned person and do not use this software to create deepfakes and do not post videos online thats is generated from this software. in case if you post content online clearly mention that it is a Ai Generated and fake and get consent from the concerned person whom real face is being used in the videos. Developers of this software will not be responsible for actions of end-users. Please do not apply it to illegal and unethical scenarios. do not use this software for illigal purpose.
 
-This project is for technical and academic use only. Use This Code for Deep learning and Ai Coding i.e How Ai Works. Users of this software are expected to use this software responsibly while abiding the local law. If a face of a real person is being used, users are suggested to get consent from the concerned person and clearly mention that it is a fake when posting content online. Developers of this software will not be responsible for actions of end-users. Please do not apply it to illegal and unethical scenarios. do not use this software for illigal purpose.
 **Please do not apply it to illegal and unethical scenarios.**
 
 In the event of violation of the legal and ethical requirements of the user's country or region, this code repository is exempt from liability
@@ -31,6 +39,8 @@ In the event of violation of the legal and ethical requirements of the user's co
 - Windows: run the `windows_run.bat` from the Installer.
 - Linux: `python run.py`
 - Dockerfile - `docker build -t roop-unleashed .`
+
+### Google-Colab
 
 <a target="_blank" href="https://colab.research.google.com/drive/1dFlsE4Rf0Djp4syxPTHZjy8N_pmVpMbE">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
