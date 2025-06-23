@@ -20,7 +20,8 @@ ftfy
 regex
 pyvirtualcam
 pydantic==2.10.6
-fastapi==0.115.12
+#fastapi==0.115.12
+fastapi==0.115.13
 
 # Downgrade Changes
 # *****************************************************
