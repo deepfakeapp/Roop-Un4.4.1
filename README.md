@@ -42,7 +42,7 @@ In the event of violation of the legal and ethical requirements of the user's co
 
 ### Google-Colab
 
-<a target="_blank" href="https://colab.research.google.com/drive/1dFlsE4Rf0Djp4syxPTHZjy8N_pmVpMbE">
+<a target="_blank" href="https://colab.research.google.com/drive/1nWUy-dG9POCSjU3s-83-PHDXUB-90Zfk">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
