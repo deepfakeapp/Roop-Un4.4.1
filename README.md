@@ -51,7 +51,7 @@ Google Colab by
 1. download Roop-Un4.4.1.iypnb
 
 Local Machine ( 50 series )
-0. git clone https://github.com/ravindergandhi/Roop-Un4.4.1
+0. git clone https://github.com/deepfakeapp/Roop-Un4.4.1
 1. cd Roop-Un4.4.1
 2. python -m venv venv && call venv/scripts/activate
 
@@ -92,7 +92,7 @@ pip install --upgrade gradio==5.13.0
 
 Local Machine (30 / 40 Series )
 
-0. git clone https://github.com/ravindergandhi/Roop-Un4.4.1
+0. git clone https://github.com/deepfakeapp/Roop-Un4.4.1
 1. cd Roop-Un4.4.1
 2. python -m venv venv && call venv/scripts/activate
 3. (FOR NVIDIA) conda install -c nvidia cudatoolkit=11.8 -y
